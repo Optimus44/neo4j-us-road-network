@@ -1,0 +1,36 @@
+# ── Secrets ──────────────────────────────────────────────────
+.env
+
+# ── Neo4j runtime data ───────────────────────────────────────
+neo4j/data/
+neo4j/logs/
+neo4j/plugins/
+
+# ── Raw dataset ──────────────────────────────────────────────
+data/roadNet.txt
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.pyc
+venv/
+.venv/
+env/
+
+# ── Analysis outputs ─────────────────────────────────────────
+# Generated files — reproducible from source
+analysis/output/
+
+
+# ── OS files ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
