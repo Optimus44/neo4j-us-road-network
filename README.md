@@ -70,7 +70,7 @@ The dataset is not included in this repository. Place it at `data/roadNet.txt`. 
 **1. Clone and configure**
 
 ```bash
-git clone https://github.com/yourusername/us-road-network.git
+git clone https://github.com/Optimus44/neo4j-us-road-network.git
 cd us-road-network
 cp .env.example .env
 # Open .env and set your Neo4j password
